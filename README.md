@@ -1,4 +1,4 @@
-# 🔍 Fake Review Detection API
+# Fake Review Detection API
 
 A FastAPI-based REST API for detecting fake/spam reviews using a fine-tuned DistilBERT model.
 
@@ -10,7 +10,7 @@ A FastAPI-based REST API for detecting fake/spam reviews using a fine-tuned Dist
 - **Batch Processing** — Analyze multiple reviews in one request
 - **Moderation Actions** — Get recommended actions (APPROVE/BLOCK/MANUAL_REVIEW)
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component | Technology |
 |-----------|------------|
@@ -19,7 +19,7 @@ A FastAPI-based REST API for detecting fake/spam reviews using a fine-tuned Dist
 | Database | SQLite |
 | ORM | SQLAlchemy |
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # Clone the repository
@@ -39,10 +39,10 @@ uvicorn app:app --reload
 
 On first startup, an admin API key is printed:
 ```
-🔑 Admin user created! API Key: <save_this_key>
+Admin user created! API Key: <save_this_key>
 ```
 
-## 🔐 Authentication Flow
+## Authentication Flow
 
 ```
 Request → X-API-Key header → Database lookup → User validated → Endpoint runs
@@ -52,11 +52,11 @@ Request → X-API-Key header → Database lookup → User validated → Endpoint
 |----------|----------|
 | No API key | `422 Unprocessable Entity` |
 | Invalid key | `401 Unauthorized` |
-| Valid key | ✅ Success |
+| Valid key | Success |
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 ### Health & Info (No Auth)
 
@@ -241,14 +241,14 @@ frdetect/
 └── distillbert_results/   # Fine-tuned model checkpoint
 ```
 
-## 🏷️ Labels
+## Labels
 
 | ID | Label | Description |
 |----|-------|-------------|
 | 0 | `not spam` | Genuine review |
 | 1 | `spam` | Fake/spam review |
 
-## 🧪 Run Tests
+## Run Tests
 
 ```bash
 pytest
