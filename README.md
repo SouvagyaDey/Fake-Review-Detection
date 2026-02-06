@@ -68,7 +68,7 @@ Request → X-API-Key header → Database lookup → User validated → Endpoint
 
 ---
 
-### 👤 Users
+### Users
 
 #### Create User
 ```http
@@ -90,7 +90,7 @@ Content-Type: application/json
 
 ---
 
-### 🔍 Reviews (Requires API Key)
+### Reviews (Requires API Key)
 
 #### Predict Single
 ```http
@@ -157,7 +157,7 @@ X-API-Key: YOUR_API_KEY
 
 ---
 
-### 👑 Admin (Requires Admin API Key)
+### Admin (Requires Admin API Key)
 
 #### Usage by User
 ```http
@@ -214,7 +214,7 @@ X-API-Key: ADMIN_API_KEY
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 frdetect/
@@ -254,6 +254,6 @@ frdetect/
 pytest
 ```
 
-## 📄 License
+## License
 
 MIT
