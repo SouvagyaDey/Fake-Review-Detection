@@ -1,5 +1,10 @@
+import os
 import torch
+from dotenv import load_dotenv
 
-MODEL_PATH = "distillbert_results/checkpoint-6066"
-BASE_MODEL = "distilbert-base-uncased"
+load_dotenv()
+
+MODEL_REPO = os.getenv("MODEL_REPO", "Souvagya/fake-review-distilbert")
+HF_TOKEN = os.getenv("HF_TOKEN")
+
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
