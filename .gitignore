@@ -7,4 +7,4 @@ __pycache__/
 .pytest_cache/
 distillbert_results/
 .env
-requests.http
+request.http
