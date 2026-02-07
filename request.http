@@ -1,5 +1,5 @@
 ###
-GET http://localhost:8000/health
+GET https://fake-review-detection-q67a.onrender.com/health
 
 ###
 GET http://localhost:8000/model/info
