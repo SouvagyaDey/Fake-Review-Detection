@@ -1,6 +1,8 @@
 from sqlalchemy import Column, Integer, String, DateTime
 from core.database import Base
 
+# APIusage table schema to track usage(only for Admin)
+
 class APIUsage(Base):
     __tablename__ = "api_usage"
 

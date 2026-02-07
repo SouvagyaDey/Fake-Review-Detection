@@ -1,6 +1,8 @@
 from sqlalchemy import Column, Integer, String, Boolean
 from core.database import Base
 
+#User table schema to store user information and API keys
+
 class User(Base):
     __tablename__ = "users"
 

@@ -4,7 +4,7 @@ A FastAPI-based REST API for detecting fake/spam reviews using a fine-tuned Dist
 
 ## Features
 
-- **ML-Powered Detection** — Fine-tuned DistilBERT for spam classification
+- **LLM-Powered Detection** — Fine-tuned DistilBERT for spam classification
 - **API Key Authentication** — Secure endpoints with user API keys
 - **Usage Tracking** — Admin dashboard to monitor requests per user
 - **Batch Processing** — Analyze multiple reviews in one request
