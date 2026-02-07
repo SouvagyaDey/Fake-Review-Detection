@@ -1,4 +1,4 @@
-annotated-doc==0.0.4
+annotated-doc
 annotated-types==0.7.0
 anyio==4.12.1
 certifi==2026.1.4
@@ -33,7 +33,7 @@ SQLAlchemy==2.0.46
 starlette==0.50.0
 sympy==1.14.0
 tokenizers==0.22.2
-torch==2.10.0
+torch==2.2.2
 tqdm==4.67.3
 transformers==5.1.0
 typer-slim==0.21.1
